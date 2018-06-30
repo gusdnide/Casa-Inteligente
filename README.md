@@ -7,5 +7,5 @@ Montagem de uma maquete sustentável mostrando como podemos conciliar tecnologia
 * C#
 * C ( Arduino )
 
-## Montagem
+## Modelo
 ![screen1](https://i.imgur.com/aixqKSM.png)
