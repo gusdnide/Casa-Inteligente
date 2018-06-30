@@ -1,0 +1,113 @@
+.botaoLigar{
+  border: none;
+  border-bottom: 2px solid;
+  border-bottom-color: green;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.botaoDesligar{
+  border: none;
+  border-bottom: 2px solid;
+  border-bottom-color: red;
+  width: 100%;
+  height: 40px;
+}
+
+.cont{
+	background-color: black;
+	height: 100%;
+}
+.boxLogin {
+	margin-top: 10%;
+}
+.formLogin{
+	background-color: #eeeeee;
+}
+.contEsquerdo{
+	background-color: #47b2b2;
+
+}
+.contEsquerdo2{
+	background-color: #47b2b2;
+	height: 100%;
+	padding-top: 1.1%;
+}
+
+.conteudo{
+	background-color: #47b2b2;
+	color: white;
+	height: 100%;
+	padding-top: 1.1%;
+}
+.logo{
+	width: 200px;
+	height: 200px;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.preto{
+	color: black;
+}
+.contMenu{
+	
+	background-color: white;
+}
+.contMenuS{
+	background-color: black;
+}
+
+
